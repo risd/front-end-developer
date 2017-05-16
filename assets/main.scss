@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+
+@import "dependencies/responsive";
+@import "dependencies/color";
+@import "dependencies/type";
+
+@import "modules/seal";
+@import "modules/header";
+@import "modules/background";
+
+
+p,li{
+	font-size:32px;
+}
+
+h2{
+	font-size:64px;
+}
+
+.description__title{
+	animation: marquee 10s linear infinite;
+	overflow:hidden;
+	width:100vw;
+	white-space:nowrap;
+}
+
+@keyframes marquee {
+    0%   { text-indent: 20em }
+    100% { text-indent: -10em }
+}

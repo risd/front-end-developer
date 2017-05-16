@@ -1,0 +1,74 @@
+.intro{
+	h1{
+		@extend %sans-serif;
+		letter-spacing: -0.04em;
+		font-size:120px;
+		position:relative;
+		height:70vh;
+		margin-top:0;
+		.title-word{
+			mix-blend-mode: multiply;
+			position:absolute;
+			// animation:spin 1s ease-in-out infinite;
+			display:inline-block;
+			color:rgb(0,0,255);
+			text-decoration:underline;
+	
+			&:nth-child(odd){
+
+
+			}
+
+			&:nth-child(1){
+				left:1em;
+				bottom:4em;
+
+
+			}
+			&:nth-child(2){
+				left:0;
+			}
+
+			&:nth-child(3){
+				left:0;
+				bottom:2em;
+
+			}
+			&:nth-child(4){
+				bottom:1em;
+				left:0;
+			}
+			&:nth-child(5){
+				bottom:0;
+
+				
+			}
+
+		}	
+	}
+}
+
+body{
+	height:900vh;
+}
+
+code{
+	@extend %mono;
+}
+
+
+@keyframes stretchy{
+	from{
+		letter-spacing: -0.04em;
+	} to{
+		letter-spacing: 2vw;
+	}
+}
+
+@keyframes back-and-forth{
+	from{
+		transform:(translateX(0));
+	}to{
+		transform:(translateX(100%));
+	}
+}
