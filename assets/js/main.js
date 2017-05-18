@@ -1,8 +1,8 @@
 const titleWords = $('.title-word');
 const seal = $('.seal');
 const help = $('.help');
-titleWords.draggable();
-seal.draggable();
+// titleWords.draggable();
+// seal.draggable();
 // $('*').draggable();
 
 
@@ -11,8 +11,8 @@ seal.draggable();
 // console.log('%c Save us from ourselves!', 'font-family:Gotham, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", "Helvetica", "Arial", sans-serif; font-feature-settings: "salt" 3; font-weight:bold; marign-bottom:1em; color: rgb(0,255,0); font-size:120px; letter-spacing:-10px;');
 
 $(document).ready(function(){
-	makeAPile($('.title-word'));
-	makeAPile($('.seal'));
+	// makeAPile($('.title-word'));
+	// makeAPile($('.seal'));
 });
 
 function makeAPile(theThingstoPile){

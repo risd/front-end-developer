@@ -13,7 +13,7 @@ layout: home
 		{% include risd-seal.svg %}
 	</div>
 </header>
-<div class="background"><p class="help">Help! Help! Help! Help! Help!</p>
+<div class="background"><p class="help">Help Wanted</p>
 	
 </div>
 <div class="description">

@@ -1,38 +1,32 @@
 .background{
 	position:fixed;
 	width:100vw;
-	// background:yellow;
 	height:100vh;
 	z-index:-1;
 	top:0;
 	left:0;
-	// transform:rotate(90deg);
-	// columns:12.5vw 8;
-	// column-gap:0;
 }
 
 .help{
 	@extend %sans-serif;
 	font-weight:bold;
-	color:rgb(255,0,0);
-	// background:rgb(255,0,0);
+	color:rgb(255,255,255);
 	line-height:1;
 	margin:0;
 	padding:0.5em 0em;
 	font-size:16px;
 	position:fixed;
-	background:blue;
+	background:red;
 	width:100vh;
 	transform-origin:0% 0%;
 	transform:rotate(90deg);
 	right:-47em;
 	animation:marquee 20s infinite;
-	
+
 
 }
 
 .apply{
-	// font-size:72px;
 	transform:scale(8);
 	transform-origin:0%,0%;
 	text-align:center;

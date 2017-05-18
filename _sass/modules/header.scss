@@ -1,32 +1,33 @@
 .intro{
 	h1{
 		@extend %sans-serif;
-		letter-spacing: -0.04em;
-		font-size:120px;
+		letter-spacing: -0.07em;
+		font-size:18vw;
 		position:relative;
-		height:70vh;
+		height:100vh;
 		margin-top:0;
 		.title-word{
 			mix-blend-mode: multiply;
-			position:absolute;
-			// animation:spin 1s ease-in-out infinite;
+			// position:absolute;
 			display:inline-block;
 			color:rgb(0,0,255);
-			text-decoration:underline;
-	
+			background:rgb(255,255,255);
+			padding:0em 0.25em;
 			&:nth-child(odd){
 
 
 			}
 
 			&:nth-child(1){
-				left:1em;
-				bottom:4em;
+				left:0em;
+				top:0em;
 
 
 			}
 			&:nth-child(2){
-				left:0;
+				right:0;
+				// transform:rotate(90deg);
+				transform-origin:0% 100%;
 			}
 
 			&:nth-child(3){
