@@ -6,53 +6,12 @@
 @import "dependencies/responsive";
 @import "dependencies/color";
 @import "dependencies/type";
+@import "modules/animations";
 
 @import "modules/seal";
 @import "modules/header";
 @import "modules/background";
 
 
-body{
-	margin:0;
-	background:blue;
-}
-
-p,li{
-	@extend %serif;
-	font-size:32px;
-	padding:1em 2em;
-	color:white;
-
-}
-
-p + p {
-	padding:0em 2em;
-}
-
-li{
-	border-bottom:1px solid rgb(255,255,255);
-
-}
-
-h2{
-	@extend %sans-serif;
-	color:rgb(0,0,255);
-	font-size:120px;
-	font-weight:800;
-	letter-spacing:-0.02em;
-	color:white;
-}
-
-.description__title{
-	animation: marquee 10s linear infinite;
-	overflow:hidden;
-	width:100vw;
-	white-space:nowrap;
-}
-
-@keyframes marquee {
-    0%   { text-indent: 20em }
-    100% { text-indent: -10em }
-}
 
 

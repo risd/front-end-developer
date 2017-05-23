@@ -1,0 +1,35 @@
+@keyframes colorShift{
+	from{
+		color:rgb(0,0,255);
+	} to{
+		color:rgb(0,255,0);
+	}	
+}
+
+@keyframes borderShift{
+	from{
+		border-color:rgb(0,0,255);
+	} to {
+		border-color:rgb(0,255,0);
+	}
+}
+
+@keyframes backgroundShift{
+	from{
+		background-color:rgb(0,0,255);
+	} to{
+		background-color:rgb(0,255,0);
+	}
+}
+
+%color-shift{
+	animation: colorShift 20s ease-in-out alternate infinite;
+}
+
+%border-shift{
+	animation: borderShift 20s ease-in-out alternate infinite;
+}
+
+%background-shift{
+	animation: backgroundShift 20s ease-in-out alternate infinite;
+}

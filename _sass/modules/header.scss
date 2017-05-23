@@ -1,75 +1,110 @@
+body{
+	@include text-size($medium);
+	padding:1em; 
+}
+
 .intro{
 	h1{
 		@extend %sans-serif;
-		letter-spacing: -0.07em;
+		letter-spacing:-0.065em;
+		margin-top:0em;
 		font-size:18vw;
-		position:relative;
-		height:100vh;
-		margin-top:0;
-		.title-word{
-			mix-blend-mode: multiply;
-			// position:absolute;
-			display:inline-block;
-			color:rgb(0,0,255);
-			background:rgb(255,255,255);
-			padding:0em 0.25em;
-			&:nth-child(odd){
+		line-height:0.8;
+		@extend %color-shift;
 
+		&:before,&:after{
+			display:block;
+			font-size:18px;
+			letter-spacing:0;
+			margin:1em;
+			font-family:courier;
+			font-weight:normal;
+			color:$gray;
+		}
 
-			}
-
-			&:nth-child(1){
-				left:0em;
-				top:0em;
-
-
-			}
-			&:nth-child(2){
-				right:0;
-				// transform:rotate(90deg);
-				transform-origin:0% 100%;
-			}
-
-			&:nth-child(3){
-				left:0;
-				bottom:2em;
-
-			}
-			&:nth-child(4){
-				bottom:1em;
-				left:0;
-			}
-			&:nth-child(5){
-				bottom:0;
-
-				
-			}
-
-		}	
+		&:before{
+			// content:"<h1>";
+		}
+		&:after{
+			// content:"</h1>";
+		}
 	}
 }
 
-body{
-	height:900vh;
-}
-
-code{
-	@extend %mono;
-}
-
-
-@keyframes stretchy{
-	from{
-		letter-spacing: -0.04em;
-	} to{
-		letter-spacing: 2vw;
+.intro-text__container{
+	.intro-text{
+		@include text-size($xlarge);
+		@extend %serif;
+		text-rendering:geometricPrecision;
+		@extend %color-shift;
+		letter-spacing:-0.02em;
 	}
 }
 
-@keyframes back-and-forth{
-	from{
-		transform:(translateX(0));
-	}to{
-		transform:(translateX(100%));
+.description__text-container{
+	width:80%;
+}
+
+.description__title{
+	@extend %sans-serif;
+	@extend %color-shift;
+	@include text-size($large);
+	letter-spacing:-0.04em;
+	margin-top:2em;
+}
+
+a{
+	@extend %color-shift;
+	text-decoration:none;
+
+	&:hover{
+		@extend %color-shift;
+		@extend %border-shift;
+		border-bottom: 1px solid;
+
 	}
 }
+
+p,
+li{
+	@extend %serif;
+	@include text-size($medium);
+}
+
+li{
+	margin-bottom:0.5em;
+}
+
+
+.portfolio-list{
+	padding:0;
+	.portfolio-item{
+		list-style:none;
+		margin-bottom:0;
+		a{
+			@include text-size($large);
+			@extend %border-shift;
+			@extend %color-shift;
+			padding:0.25em 0em;
+			display:block;
+			transition:all 0.2s ease-in-out;
+			border-bottom:1px solid;
+			&:hover{
+				transition:all 0.2s ease-in-out;
+				padding-left:1em;
+			}
+			&:visited{
+				@extend %color-shift;
+			}
+		}
+	}
+}
+
+
+::selection{
+	@extend %background-shift;
+	color:white;
+}
+
+
+

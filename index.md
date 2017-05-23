@@ -7,27 +7,40 @@ layout: home
 
 
 <header class="intro">
-	<h1><span class="title-word">RISD</span> <span class="title-word">seeks</span> <span class="title-word">a</span> <span class="title-word">front-end</span> <span class="title-word">developer</span></h1>
+	<h1>RISD <br> seeks a <br> front-end <br>developer</h1>
 	
-	<div class="seal">
+	{% comment %}<div class="seal">
 		{% include risd-seal.svg %}
-	</div>
+	</div>{% endcomment %}
 </header>
-<div class="background"><p class="help">Help Wanted</p>
-	
-</div>
-<div class="description">
-	<h2 class="description__title">Help Wanted</h2>
-	<div class="description__text-container">
-		<p>RISD is looking for a front-end developer with a sophisticated eye for design and a passion for creating storytelling experiences with HTML, CSS, and JS.</p>
 
-		<p>In this key position in RISD Media (the college’s marketing and public relations team), you will be responsible for realizing and advancing RISD web designs, predominantly for our main institutional website (<a href="http://www.risd.edu">www.risd.edu</a>). You’ll also be helping RISD develop a point of view about deploying web technologies that reflect our global leadership in art and design education and, because we’re a lean group, you’ll be a trusted partner in the daily operation and growth of RISD’s publishing platforms.</p>
+<section class="description">
+	<div class="intro-text__container">
+		<p class="intro-text">RISD is looking for a front-end developer with a sophisticated eye for design and a passion for creating storytelling experiences with HTML, CSS, and JavaScript.</p>
+	</div>
+</section>
+	
+
+<section class="description">
+	<div class="description__text-container">
+		<p>In this key position in RISD Media the college’s marketing and public relations team, you will be responsible for realizing and advancing RISD web designs, predominantly for our main institutional website <a href="http://www.risd.edu">www.risd.edu</a>. You’ll also be helping RISD develop a point of view about deploying web technologies that reflect our global leadership in art and design education and, because we’re a lean group, you’ll be a trusted partner in the daily operation and growth of RISD’s publishing platforms.</p>
 
 		<p>We need someone with strong analytical and creative thinking abilities who can communicate and collaborate with people at varying levels of technical proficiency.</p>
 	</div>
-</div>
+</section>
 
-<div class="description">
+<section class="description portfolio">
+	<h2 class="description__title">Some Recent Sites</h2>
+	<ul class="portfolio-list">
+		<li class="portfolio-item"><a href="">commencement.risd.edu</a></li>
+		<li class="portfolio-item"><a href="">naturelab.risd.edu</a></li>
+		<li class="portfolio-item"><a href="">welcomegrad.risd.edu</a></li>
+		<li class="portfolio-item"><a href="">congratulations.risd.edu</a></li>
+		<li class="portfolio-item"><a href="">cd-cf.org</a></li>
+	</ul>
+</section>
+
+<section class="description">
 	<h2 class="description__title">Essential Functions / Duties</h2>
 	<div class="description__text-container">
 		<li>Implement, evolve and optimize institutional website designs via HTML5, CSS3, JavaScript, etc., based on input and feedback from designers, editors and marketing staff. Engage other RISD or third-party developers as needed for larger development projects.</li>
@@ -37,14 +50,13 @@ layout: home
 		<li>Act as a liaison and partner to RISD IT. Meet regularly with IT leadership to ensure that Media’s technical infrastructure meets industry standards and, when appropriate, aligns with overall RISD IT objectives. Ensure that Media’s web sites systems integrate with other institutional IT systems for critical data.</li>
 
 		<li>Participate in governance of RISD.edu web site, as directed by Media leadership. Includes accessibility testing (or other site testing), maintaining site documentation and helping conduct annual policy or compliance reviews.</li>
-
 	</div>
-</div>
+</section>
 
-<div class="description">
+<section class="description">
 	<h2 class="description__title">Qualifications</h2>
 	<div class="description__text-container">
-		<li>Bachelor’s degree with minimum of 3 years of experience developing with <code>HTML</code>, <code>CSS</code>, <code>SCSS</code> & <code>JavaScript</code> and using web APIs. </li>
+		<li>Bachelor’s degree with minimum of 3 years of experience developing with HTML, CSS, SCSS &amp; JavaScript and using web APIs. </li>
 
 		<li>Ability to write clean, semantic code is a must, as is experience working with Github to manage and share code and track issues.</li> 
 
@@ -52,7 +64,7 @@ layout: home
 
 		<li>Experience implementing or developing for contemporary content management systems.</li>
 
-		<li>Experience or interest to learn <code>node.js</code>.</li>
+		<li>Experience or interest to learn node.js.</li>
 
 		<li>Excellent written and verbal communication skills, along with strong analytical and creative thinking abilities. Able to communicate and collaborate with people at varying levels of technical proficiency.</li>
 
@@ -63,13 +75,8 @@ layout: home
 		<li>Familiarity with Google Analytics preferred.</li>
 
 	</div>
-</div>
-
-<section>
-	<button class="apply"><a href="">Apply</a></button>
-	
 </section>
 
-```
-var aThing = things;
-```
+<section>
+	<button class="apply"><a href="">Apply</a></button>	
+</section>

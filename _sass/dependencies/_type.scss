@@ -114,24 +114,30 @@ This definition includes redundant repitition of values, so it can be defined mo
 $medium:(
   base:(20px, 24px),
   small:(20px, 24px),
-  medium:(28px, 32px)
+  medium:(32px, 42px)
 );
 
 $large:(
-  base:(21px, 28px),
-  medium:(36px, 42px)
+  base:(32px, 32px),
+  medium:(48px, 48px)
+);
+
+
+$xlarge:(
+  base:(36px, 36px),
+  medium:(72px, 78px)
 );
 
 // XXL
 $xxl:(
   base:(48px, 48px),
-  medium:(72px,72px),
-  large:(96px,96px)
+  medium:(72px,63px),
+  large:(120px,96px)
 );
 
 $button:(
-  base:(72px,72px),
-  medium:(200px, 200px)
+  base:(72px,63px),
+  medium:(162px, 120px)
 );
 
 
