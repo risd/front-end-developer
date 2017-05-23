@@ -108,17 +108,19 @@ This definition includes redundant repitition of values, so it can be defined mo
 
 
 
-  
+  $small:(
+    base:(14px,20px)
+  );
 
 
 $medium:(
-  base:(20px, 24px),
-  small:(20px, 24px),
-  medium:(32px, 42px)
+  base:(16px, 26px),
+  small:(18px, 28px)
 );
 
 $large:(
-  base:(32px, 32px),
+  base:(20px, 20px),
+  small:(28px, 28px),
   medium:(48px, 48px)
 );
 

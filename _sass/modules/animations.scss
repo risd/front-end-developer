@@ -22,6 +22,14 @@
 	}
 }
 
+@keyframes fillShift{
+	from{
+		fill:rgb(0,0,255);
+	} to {
+		fill:rgb(0,255,0);
+	}
+}
+
 %color-shift{
 	animation: colorShift 20s ease-in-out alternate infinite;
 }
@@ -32,4 +40,9 @@
 
 %background-shift{
 	animation: backgroundShift 20s ease-in-out alternate infinite;
+}
+
+
+%fill-shift{
+	animation: fillShift 20s ease-in-out alternate infinite;
 }
