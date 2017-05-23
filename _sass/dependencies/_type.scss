@@ -9,7 +9,9 @@
 }
 
 %serif {
-  font-family: "Mercury Text G1 A", "Mercury Text G1 B", "Georgia", "Times New Roman", "Times", serif;
+  font-family: "Mercury Display A", "Mercury Display B", "Georgia", "Times New Roman", "Times", serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 %mono{
@@ -126,7 +128,7 @@ $large:(
 
 
 $xlarge:(
-  base:(36px, 36px),
+  base:(36px, 42px),
   medium:(72px, 78px)
 );
 

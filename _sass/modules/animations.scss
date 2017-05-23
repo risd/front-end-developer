@@ -30,6 +30,23 @@
 	}
 }
 
+@keyframes bodyShift{
+	from{
+		background:rgb(220,255,255); 
+
+	} to {
+		background:rgb(255,255,245); 
+	}
+}
+
+@keyframes knockoutShift{
+	from{
+		color:rgb(220,255,255); 
+
+	} to {
+		color:rgb(255,255,245); 
+	}
+}
 %color-shift{
 	animation: colorShift 20s ease-in-out alternate infinite;
 }
@@ -45,4 +62,14 @@
 
 %fill-shift{
 	animation: fillShift 20s ease-in-out alternate infinite;
+}
+
+%body-shift{
+	animation: bodyShift 20s ease-in-out alternate infinite,
+			   borderShift 20s ease-in-out alternate infinite;
+}
+
+%knockout-shift{
+	animation: knockoutShift 20s ease-in-out alternate infinite,
+			   backgroundShift 20s ease-in-out alternate infinite;
 }
