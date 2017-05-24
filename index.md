@@ -7,7 +7,7 @@ layout: home
 
 
 <header class="intro">
-	<h1>RISD <br> seeks a <br> front-end <br>developer</h1>
+	<h1><span class="word word-one">RISD</span> <br> <span class="word word-two">seeks</span> <span class="word word-three">a</span> <br> <span class="word word-four">front-end</span> <br><span class="word word-five">developer</span></h1>
 	
 	{% comment %}<div class="seal">
 		{% include risd-seal.svg %}
@@ -97,13 +97,13 @@ layout: home
 	<div class="description__text-container">
 		<li>Bachelor’s degree with minimum of 3 years of experience developing with <em>HTML</em>, <em>CSS</em>, <em>SCSS</em> &amp; <em>JavaScript</em> and using web <em>APIs</em>. </li>
 
-		<li>Ability to write clean, semantic code is a must, as is experience working with Github to manage and share code and track issues.</li> 
+		<li>Ability to write clean, semantic code is a must, as is experience working with <a href="http://github.com/risd" target="_blank"><em>Github</em></a> to manage and share code and track issues.</li> 
 
 		<li>Experience developing responsive websites and/or web applications or interfaces. Excellent design sensibilities required.</li>
 
 		<li>Experience implementing or developing for contemporary content management systems.</li>
 
-		<li>Experience or interest to learn <em>node.js</em>.</li>
+		<li>Experience with, or interest to learn <em>node.js</em>.</li>
 
 		<li>Excellent written and verbal communication skills, along with strong analytical and creative thinking abilities. Able to communicate and collaborate with people at varying levels of technical proficiency.</li>
 
