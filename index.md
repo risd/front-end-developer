@@ -9,6 +9,15 @@ layout: home
 <header class="intro">
 	<h1><span class="word word-one">RISD</span> <br> <span class="word word-two">seeks</span> <span class="word word-three">a</span> <br> <span class="word word-four">front-end</span> <br><span class="word word-five">developer</span></h1>
 	
+	<div class="icons">
+		{% include icons/x-button.svg  %}
+		{% include icons/tools.svg  %}
+		{% include icons/rss.svg  %}
+		{% include icons/sliders.svg  %}
+		{% include icons/arrows.svg  %}
+		{% include icons/gear.svg  %}
+		{% include risd-seal.svg  %}
+	</div>
 	{% comment %}<div class="seal">
 		{% include risd-seal.svg %}
 	</div>{% endcomment %}

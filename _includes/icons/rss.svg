@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="rss" viewBox="0 0 43.51 43.81">
+	<title>rss</title>
+	<g id="Layer_2" data-name="Layer 2">
+		<g id="Layer_1-2" data-name="Layer 1">
+			<path id="dot" d="M5.47,43.81a5.47,5.47,0,0,1,0-10.93,5.47,5.47,0,1,1,0,10.93Z"/><path id="small-arc" data-name="small arc" d="M35,43.44v-.3A35,35,0,0,0,24.86,18.65,34.29,34.29,0,0,0,.22,8.54V0h.6a43,43,0,0,1,30,12.58A44.7,44.7,0,0,1,43.51,43.44Z"/>
+			<path id="large-arc" data-name="large arc" d="M19.47,43.44a19.29,19.29,0,0,0-5.62-13.85A19.54,19.54,0,0,0,.22,24V15.43a28.29,28.29,0,0,1,19.7,8.09,28.75,28.75,0,0,1,8.16,19.92Z"/>
+		</g>
+	</g>
+</svg>

@@ -121,7 +121,7 @@ li{
 		content:"→ ";
 		@extend %color-shift
 	}
-	
+
 	a{
 		margin-left:1em;
 	}
@@ -244,5 +244,128 @@ li{
 		&:before{
 			content:"";
 		}
+	}
+}
+
+
+.icons{
+	position:absolute;
+	z-index:10;
+	top:0;
+	left:0;
+	width:100%;
+	mix-blend-mode:multiply;
+
+	svg{
+
+		path,
+		polygon{
+			@extend %fill-shift-reverse;
+		}
+
+		mix-blend-mode:multiply;
+		position:absolute;
+		max-width:2rem;
+		@include respond-above(small){
+			max-width:5rem;
+		};
+		@include respond-above(medium){
+			max-width:7rem;		
+		};
+	}
+	
+	#gear{
+		left: 50vw;
+		top:42vh;
+		animation:spin 1.5s ease-in-out reverse infinite;
+
+	}
+	
+	#rss{
+		right:10vw;
+		top:56vh;
+		#small-arc{
+			animation: appearBlunt 1s ease-in-out 0.4s infinite,
+			  		   fillShift 20s ease-in-out alternate-reverse infinite;
+			// transform:rotate(20deg);
+		}
+
+		#large-arc{
+			animation: appearBlunt 1s ease-in-out infinite,
+					   fillShift 20s ease-in-out alternate-reverse infinite;
+		}
+	}
+
+	#sliders{
+		right:40vw;
+		top:10vh;
+		#slider-top{
+			animation:shift 3s ease-in-out alternate infinite,
+			          fillShift 20s ease-in-out alternate-reverse infinite;
+		}
+		#slider-middle{
+			animation:shift 4s ease-in-out alternate-reverse infinite,
+			          fillShift 20s ease-in-out alternate-reverse infinite;
+		}
+
+		#slider-bottom{
+			animation:shift 1s ease-in-out alternate-reverse infinite,
+			          fillShift 20s ease-in-out alternate-reverse infinite;
+		}
+
+		
+	}
+
+	#x-button{
+		top:20vh;
+		right:5em;
+		animation:spin 1.5s ease-in-out infinite;
+	}
+
+	#tools{
+		left:20vw;
+		top:30vh;
+		#hammer{
+			transform-origin:50% 50%;
+			// animation:wiggle 3s ease-in-out alternate infinite;
+		}
+		#wrench{
+			transform-origin: 50% 50%;
+			// animation:wiggle 3s ease-in-out alternate-reverse infinite,
+				      // fillShift 20s ease-in-out alternate-reverse infinite;
+		}
+	}
+	
+	#risd-seal{
+		right:-2vw;
+		top:-2em;
+	}
+
+	#arrows{
+		left:10vw;
+		top:60vh;
+		polygon{
+			transform-origin:50% 50%;
+		}
+
+		.top.left{
+			animation:rotate 1.5s ease-in-out infinite,
+			          fillShift 20s ease-in-out alternate-reverse infinite;
+
+		}
+		.bottom.left{
+			animation:rotate 1.5s ease-in-out reverse infinite,
+					  fillShift 20s ease-in-out alternate-reverse infinite;
+		}
+
+		.top.right{
+			animation:rotate 1.5s ease-in-out infinite,
+					  fillShift 20s ease-in-out alternate-reverse infinite;
+		}
+		.bottom.right{
+			animation:rotate 1.5s ease-in-out reverse infinite,
+					  fillShift 20s ease-in-out alternate-reverse infinite;
+		}
+
 	}
 }

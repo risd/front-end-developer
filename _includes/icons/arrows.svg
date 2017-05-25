@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="arrows" viewBox="0 0 45.46 45.46">
+	<title>arrows</title>
+	<g id="Layer_2" data-name="Layer 2">
+		<g id="Layer_1-2" data-name="Layer 1">
+			<polygon class="top left" data-name="Top Left" points="12.73 8.16 17.82 3 17.82 17.82 3 17.82 8.09 12.66 0 4.57 4.64 0 12.73 8.16"/>
+			<polygon class="bottom left" data-name="Bottom Left" points="0 40.74 8.09 32.73 3 27.63 17.82 27.63 17.82 42.46 12.73 37.3 4.64 45.46 0 40.74"/>
+			<polygon class="top right" data-name="Top RIght" points="45.46 4.57 37.37 12.66 42.46 17.82 27.64 17.82 27.64 3 32.73 8.09 40.89 0 45.46 4.57"/>
+			<polygon class="bottom right" data-name="Bottom Right" points="27.64 42.46 27.64 27.63 42.46 27.63 37.37 32.73 45.46 40.74 40.89 45.46 32.73 37.3 27.64 42.46"/>
+		</g>
+	</g>
+</svg>
