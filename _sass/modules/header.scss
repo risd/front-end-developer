@@ -28,7 +28,9 @@ body{
 			display:inline-block;
 			transform:translateX(-30em);
 			transition:transform 1s cubic-bezier(0.35, 0.01, 0.18, 1.16);
-
+			&:hover{
+				transform:translateY(-0.25em);
+			}
 			&.word-one{
 				transition-delay:0.5s;
 			}
@@ -117,9 +119,14 @@ li{
 	list-style:none;
 	text-indent:-1em;
 	margin-left:1em;
+	transition:transform 0.2s ease-in-out;
 	&:before{
 		content:"→ ";
-		@extend %color-shift
+		@extend %color-shift;
+	}
+	
+	&:hover{
+		transform:translateX(1em);
 	}
 
 	a{
@@ -257,7 +264,9 @@ li{
 	mix-blend-mode:multiply;
 
 	svg{
-
+		&:hover{
+			transform:scale(2.0);
+		}
 		path,
 		polygon{
 			@extend %fill-shift-reverse;
@@ -271,6 +280,9 @@ li{
 		};
 		@include respond-above(medium){
 			max-width:7rem;		
+		};
+		@include respond-above(large){
+			max-width:10rem;
 		};
 	}
 	
@@ -320,6 +332,7 @@ li{
 		top:20vh;
 		right:5em;
 		animation:spin 1.5s ease-in-out infinite;
+		transform:scale(2);
 	}
 
 	#tools{
@@ -339,11 +352,15 @@ li{
 	#risd-seal{
 		right:-2vw;
 		top:-2em;
+		animation: spin 2s ease-in-out alternate-reverse infinite;
+		transform:scale(2);
+
 	}
 
 	#arrows{
 		left:10vw;
 		top:60vh;
+		transform:scale(2);
 		polygon{
 			transform-origin:50% 50%;
 		}

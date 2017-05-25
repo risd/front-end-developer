@@ -1,50 +1,56 @@
+$pop-color-1: rgb(0,255,0);
+$pop-color-2: rgb(91,91,91);
+
+$bg-color-1:rgb(255,255,245);
+$bg-color-2:rgb(255,255,245);
+
 @keyframes colorShift{
 	from{
-		color:rgb(0,0,255);
+		color:$pop-color-1;
 	} to{
-		color:rgb(0,255,0);
+		color:$pop-color-2;
 	}	
 }
 
 @keyframes borderShift{
 	from{
-		border-color:rgb(0,0,255);
+		border-color:$pop-color-1;
 	} to {
-		border-color:rgb(0,255,0);
+		border-color:$pop-color-2;
 	}
 }
 
 @keyframes backgroundShift{
 	from{
-		background-color:rgb(0,0,255);
+		background-color:$pop-color-1;
 	} to{
-		background-color:rgb(0,255,0);
+		background-color:$pop-color-2;
 	}
 }
 
 @keyframes fillShift{
 	from{
-		fill:rgb(0,0,255);
+		fill:$pop-color-1;
 	} to {
-		fill:rgb(0,255,0);
+		fill:$pop-color-2;
 	}
 }
 
 @keyframes bodyShift{
 	from{
-		background:rgb(220,255,255); 
+		background:$bg-color-1; 
 
 	} to {
-		background:rgb(255,255,245); 
+		background:$bg-color-2; 
 	}
 }
 
 @keyframes knockoutShift{
 	from{
-		color:rgb(220,255,255); 
+		color:$bg-color-1; 
 
 	} to {
-		color:rgb(255,255,245); 
+		color:$bg-color-2; 
 	}
 }
 
