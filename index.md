@@ -126,5 +126,5 @@ layout: home
 </section>
 
 <section>
-	<button class="apply"><a href="" class="apply-link">Apply</a></button>	
+	<button class="apply"><a href="https://careers.risd.edu/postings/1562" target="_blank" class="apply-link">Apply</a></button>	
 </section>
