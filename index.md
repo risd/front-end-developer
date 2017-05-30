@@ -32,7 +32,7 @@ layout: home
 
 <section class="description">
 	<div class="description__text-container">
-		<p>In this key position in RISD Media the college’s marketing and public relations team, you will be responsible for realizing and advancing RISD web designs, predominantly for our main institutional website <a href="http://www.risd.edu" target="_blank"><em>www.risd.edu</em></a>. You’ll also be helping RISD develop a point of view about deploying web technologies that reflect our global leadership in art and design education and, because we’re a lean group, you’ll be a trusted partner in the daily operation and growth of RISD’s publishing platforms.</p>
+		<p>In this key position in RISD Media, the college’s marketing and public relations team, you will be responsible for realizing and advancing RISD web designs, predominantly for our main institutional website <a href="http://www.risd.edu" target="_blank"><em>www.risd.edu</em></a>. You’ll also be helping RISD develop a point of view about deploying web technologies that reflect our global leadership in art and design education and, because we’re a lean group, you’ll be a trusted partner in the daily operation and growth of RISD’s publishing platforms.</p>
 
 		<p>We need someone with strong analytical and creative thinking abilities who can communicate and collaborate with people at varying levels of technical proficiency.</p>
 	</div>
@@ -112,7 +112,7 @@ layout: home
 
 		<li>Experience implementing or developing for contemporary content management systems.</li>
 
-		<li>Experience with, or interest to learn <em>node.js</em>.</li>
+		<li>Experience with or interest to learn <em>node.js</em>.</li>
 
 		<li>Excellent written and verbal communication skills, along with strong analytical and creative thinking abilities. Able to communicate and collaborate with people at varying levels of technical proficiency.</li>
 
